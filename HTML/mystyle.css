@@ -1,0 +1,37 @@
+body {
+    background-color: lightblue;
+  }
+  
+  body {
+    color: navy;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+  }
+  h1 {
+    font-size: 40px;
+    color: rgb(10, 10, 223);
+  }
+  p {
+    font-size: 14px;
+  }
+  .round {
+    border-radius: 100px; 
+    border: 3px solid rgb(0, 45, 128); 
+    box-shadow: 0 0 7px #666; 
+   }
+   .container1 { 
+    display: grid; 
+    text-align: center; 
+    
+}
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+      
+}
+img {  
+    max-width: 100%;  
+    height: auto;  
+    }  
